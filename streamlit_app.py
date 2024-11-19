@@ -19,6 +19,8 @@ from langchain_core.callbacks import CallbackManagerForToolRun
 from langchain.agents import AgentType, initialize_agent
 
 memory = MemorySaver()
+st.title("Multilingual Stock Insight Analyzer")
+
 # Initialize session state for API key submission
 if "api_keys_submitted" not in st.session_state:
     st.session_state["api_keys_submitted"] = False
