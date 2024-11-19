@@ -135,8 +135,6 @@ if st.session_state["api_keys_submitted"]:
         """
         Collect input content and/or a PDF file from the user.
         """
-        st.title("Multilingual Stock Insight Analyzer")
-
         # Collect text input
         input_text = st.text_area("Enter text about the stock:")
         
