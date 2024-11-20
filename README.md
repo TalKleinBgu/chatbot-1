@@ -2,7 +2,7 @@
 
 This Streamlit-based application is designed to provide insightful analysis of financial and stock-related data using text inputs, uploaded PDF files, and online resources. The app leverages powerful AI tools like OpenAI's GPT-4 and Tavily Search to generate multilingual, actionable insights.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tavily-finance-chatbot.streamlit.app/)
 
 ## Key Features
 
