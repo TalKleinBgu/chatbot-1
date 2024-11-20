@@ -260,8 +260,6 @@ def analysis_state(context):
     # Update context with generated insights
     context['insights'] = [{'title': extracted_text, 'insight': answer.content}]
     return context
-from IPyhon.display import Image, display
-display(Image.get_graph().draw_mermaid_png())
 
 def output_state(context):
     """
@@ -273,8 +271,6 @@ def output_state(context):
         st.write(f"{summary['insight']}")
         st.markdown("---")
 
-
-display(Image)
 # Add states to the workflow
 builder.add_node('InputCollectionState', input_collection_state)
 builder.add_node('TextExtractionState', text_extraction_state)
