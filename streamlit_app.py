@@ -21,7 +21,7 @@ from dotenv import load_dotenv
 memory = MemorySaver()
 load_dotenv()
 
-st.title("Multilingual Finance Insight Analyzer")
+st.title("Finance Insight Analyzer")
 
 # Get API keys from the environment
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
@@ -244,7 +244,7 @@ def analysis_state(context):
         "1. Provide a detailed summary of insights regarding the query or stock-related topics.\n"
         "2. Use search results and base text for context, if available, but do not explicitly reference them in the insights.\n"
         "3. Include actionable points or trends related to the stock (e.g., performance, market news, or relevant risks).\n"
-        "4. Conclude with a neatly formatted section showing credible sources."
+        "4. Conclude with a neatly formatted section showing credible sources, if posiible show links."
         )
 
     answer_instructions = answer_template.format(
