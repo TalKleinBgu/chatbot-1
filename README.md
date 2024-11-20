@@ -102,3 +102,8 @@ The app integrates Tavily Search to retrieve relevant online resources, ensuring
 #### StateGraph Workflow
 
 The StateGraph ensures modular and logical progression through each stage of the analysis pipeline, from input collection to insights generation.
+
+## Workflow Diagram
+
+Below is the visual representation of the application's stateful workflow:
+![alt text](https://github.com/TalKleinBgu/chatbot-1/blob/main/graph.png?raw=true)
