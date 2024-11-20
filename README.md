@@ -1,4 +1,4 @@
-📊 # Finance Insight Analyzer
+# 📊 Finance Insight Analyzer
 
 This Streamlit-based application is designed to provide insightful analysis of financial and stock-related data using text inputs, uploaded PDF files, and online resources. The app leverages powerful AI tools like OpenAI's GPT-4 and Tavily Search to generate multilingual, actionable insights.
 
