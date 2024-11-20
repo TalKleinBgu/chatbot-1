@@ -109,3 +109,19 @@ The StateGraph ensures modular and logical progression through each stage of the
 Below is the visual representation of the application's stateful workflow:
 
 ![alt text](https://github.com/TalKleinBgu/tavily-finance-chatbot/blob/main/graph.png?raw=true)
+
+
+## run example
+
+### <ins>First stage</ins>:
+
+Enter this link - [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tavily-finance-chatbot.streamlit.app/)
+
+### <ins>Second stage</ins>:
+Examples of input for the chatbot
+
+1) Tesla stock
+2) What do you think about Nvidia stock based on its last 6 months? Should I invest it ?
+3) What are Meta's latest financial analyses ?
+4) Upload the pdf file and ask the chatbot - What is written in the file ?
+5) Upload the pdf file and ask the chatbot - what can you tell about Alphabet First Quarter 2024 Results ?
