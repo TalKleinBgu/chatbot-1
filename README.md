@@ -1,6 +1,8 @@
-# Finance Insight Analyzer
+# 📊 Finance Insight Analyzer
 
 This Streamlit-based application is designed to provide insightful analysis of financial and stock-related data using text inputs, uploaded PDF files, and online resources. The app leverages powerful AI tools like OpenAI's GPT-4 and Tavily Search to generate multilingual, actionable insights.
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/)
 
 ## Key Features
 
@@ -102,5 +104,3 @@ The app integrates Tavily Search to retrieve relevant online resources, ensuring
 #### StateGraph Workflow
 
 The StateGraph ensures modular and logical progression through each stage of the analysis pipeline, from input collection to insights generation.
-
-
