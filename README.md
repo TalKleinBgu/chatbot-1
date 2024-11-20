@@ -61,7 +61,7 @@ pip install -r requirements.txt
 Start the application:
 
 ```bash
-python app.py
+python streamlit_app.py
 ```
 
 ### 6. Open the App
