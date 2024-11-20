@@ -22,10 +22,10 @@ memory = MemorySaver()
 load_dotenv()
 
 st.title("Finance Insight Analyzer")
-
-# Get API keys from the environment
+# Get API keys from the configuration
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
 
 # Check if API keys are present
 if not TAVILY_API_KEY or not OPENAI_API_KEY:
