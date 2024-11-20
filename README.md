@@ -109,4 +109,5 @@ The StateGraph ensures modular and logical progression through each stage of the
 ## Workflow Diagram
 
 Below is the visual representation of the application's stateful workflow:
+
 ![alt text](https://github.com/TalKleinBgu/chatbot-1/blob/main/graph.png?raw=true)
